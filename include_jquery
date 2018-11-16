@@ -1,1 +1,4 @@
-var jQueryScript = document.createElement('script'); jQueryScript.setAttribute('src','https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'); document.head.appendChild(jQueryScript)
+save as bookmark:javascript:var jQueryScript = document.createElement('script'); jQueryScript.setAttribute('src','https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'); document.head.appendChild(jQueryScript);
+to add jQuery to page
+
+Sadly WebKit does not include the blink tag. But it does include marquee! What?!
