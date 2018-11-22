@@ -1,12 +1,6 @@
-Document.createElement('script'); jQueryScript.setAttribute('src','https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'); document.head.appendChild(jQueryScript);
-// JQUERY
+var jq = document.createElement('script');
+jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js";
+document.getElementsByTagName('head')[0].appendChild(jq);
+// ... give time for script to load, then type (or see below for non wait option)
+jQuery.noConflict();
 
-//MAKE BLINK WORK (since webkit doesn't RESPECT it. N.B. You'll still have to add actual <blink> tags yourself
-    setInterval(function(){
-      $('blink').each(function() {
-        $(this).toggle();
-      });
-    }, 250);
-
-// change background to panda
-$("body").attr("background", "https://c402277.ssl.cf1.rackcdn.com/photos/11551/images/hero_full/Bernard_de_wetter_wwf_canon_113974.jpg")
